@@ -7,8 +7,7 @@ int sockMerchant(int n, vector<int> ar) {
             if(s.top() == ar[i+1]) 
             {
                 s.pop();
-                if(i < ar.size() -1) i = i + 2;
-                else i++ ;
+                i = i + 2;
             }
             else 
             {
